@@ -1,0 +1,80 @@
+.inputdata{
+
+display : block;
+width: 100%;
+padding: 0.5rem;
+border-radius: 0.25rem;
+margin:auto;
+box-sizing: border-box;
+}
+.label{
+    font-weight: bold;
+}
+
+.content{
+    max-width : 25rem;
+    background-color: blanchedalmond;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0.3rem 0.9rem rgba(0,0,0,0.1);
+}
+.message{
+    width: 100%;
+    display:block;
+    resize:none;
+    box-sizing:border-box;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow:inset 0 0.1rem 0.3rem rgba(0,0,0,0.05);
+    
+    
+}
+#submit{
+    padding: 0.2rem;
+    cursor :pointer;
+    background-color: rgb(26, 13, 198);
+    color: white;
+    display : block;
+    width: 50%;
+    margin:1rem auto;
+    border-radius: 0.25rem;
+    
+    
+
+}
+#headline{
+    color:black;
+
+}
+.get-started{
+
+    background-color:rgb(26, 13, 198);
+    color:white;
+    cursor: pointer;
+    padding: 0.2rem;
+    display:block;
+    width: 50%;
+    margin:1rem auto;
+    border-radius: 0.25rem;
+    
+    
+
+
+}
+
+.hidden{
+    
+    display:none;
+    opacity:0;
+    visibility:hidden;
+
+     
+    
+}
+.first-section, .second-section{
+   opacity: 1;
+   transition: opacity 0.4s ease;
+   visibility:visible;
+
+}
